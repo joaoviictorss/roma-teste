@@ -5,7 +5,15 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        inter: ['Inter', 'sans-serif'],
+        poppins: ['Poppins', 'sans-serif'],
+      },
+      backgroundImage: {
+        'hero': "url('./assets/images/login-hero-image.jpg')",
+      }
+    },
   },
   plugins: [],
 }
