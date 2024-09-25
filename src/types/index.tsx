@@ -6,6 +6,7 @@ export type UserData = {
 export type Errors = {
   email?: string;
   password?: string;
+  confirmPassword?: string;
 };
 
 export type ValidationResult = {
